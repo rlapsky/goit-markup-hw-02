@@ -13,10 +13,47 @@
 4 background: #F5F4FA;
 5 background: #2F303A;
 */
-
-.list {
-  list-style: none;
+/*обнуления для списков*/
+.list  {
+  list-style-type: none; 
 }
-/* site nav*/
+
+/*header*/
+.logo {
+  text-decoration-line: none;
+  color:#212121;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
 .site-nav .link {
+  text-decoration-line: none;
   color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.auth-nav .link-auth {
+  text-decoration: none;
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+}
+.logo-span:hover,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link-auth:hover,
+.auth-nav .link-auth:focus {
+  color:#2196f3;
+
+  /* main*/
