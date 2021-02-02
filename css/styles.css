@@ -1,0 +1,22 @@
+/*основной цвет текста #757575*/
+
+/*акцент #2196f3*/
+
+/*белый #ffffff; #ffffff 60%;*/
+
+/*вторичный цвет  #212121;*/
+
+/*цвета фонов  
+1 background: #FFFFFF;
+2 background: #2F303A;
+3 background: #E5E5E5; 
+4 background: #F5F4FA;
+5 background: #2F303A;
+*/
+
+.list {
+  list-style: none;
+}
+/* site nav*/
+.site-nav .link {
+  color: #212121;
