@@ -8,7 +8,7 @@
 
 /*цвета фонов 
 1 background: #E5E5E5;  
-2 основнойbackground: #FFFFFF;
+2 основной background: #FFFFFF;
 3 background: #2F303A;
 4 background: #F5F4FA;
 5 background: #2F303A;
@@ -97,7 +97,6 @@
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
-
 }
 /*team*/
 .team-list .title {
@@ -117,11 +116,11 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+}
+/*footer*/
 
-  /*footer*/
-
-.info {
-  color: var(--wite-color--)
+address {
+  color: var(--wite-color--);
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
