@@ -4,6 +4,7 @@
   --accent-color--: #2196f3;
   --wite-color--: #ffffff;
   --wite-color-accent--: #ffffff 60%;
+  --bgcfooter--: #2f303a;
 }
 
 /*цвета фонов 
@@ -41,6 +42,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav .link-auth {
@@ -49,9 +51,9 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  font-size: 14px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -69,11 +71,14 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /*feature*/
 
-.feature-list .title {
+.section .feature-list .title {
   color: var(--title-color-text--);
   font-family: Roboto;
   font-style: normal;
@@ -90,6 +95,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .buton {
@@ -100,6 +106,10 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /*section*/
@@ -122,13 +132,24 @@
   letter-spacing: 0.03em;
 }
 
-.team-list p {
+.name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.position {
   color: var(--primery-text-color--);
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /*footer*/
 
@@ -139,4 +160,16 @@ address {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+}
+
+footer {
+  background-color: var(--bgcfooter--);
+}
+
+.logo-white {
+  color: var(--wite-color--);
+}
+
+.auth-nav .link-auth.footer {
+  color: rgba(255, 255, 255, 0.6);
 }
