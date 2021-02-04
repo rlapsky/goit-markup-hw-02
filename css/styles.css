@@ -29,6 +29,10 @@
   line-height: 1.2;
 }
 
+.logo-span {
+  color: var(--accent-color--);
+}
+
 .site-nav .link {
   text-decoration-line: none;
   color: var(--title-color-text--);
@@ -49,7 +53,6 @@
   letter-spacing: 0.02em;
   font-size: 14px;
 }
-.logo-span:hover,
 .site-nav .link:hover,
 .site-nav .link:focus,
 .auth-nav .link-auth:hover,
@@ -87,6 +90,16 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+}
+
+.buton {
+  color: #ffffff;
+  background-color: var(--accent-color--);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 /*section*/
