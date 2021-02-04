@@ -1,27 +1,27 @@
-/*основной цвет текста #757575*/
+:root {
+  --primery-text-color--: #757575;
+  --title-color-text--: #212121;
+  --accent-color--: #2196f3;
+  --wite-color--: #ffffff;
+  --wite-color-accent--: #ffffff 60%;
+}
 
-/*акцент #2196f3*/
-
-/*белый #ffffff; #ffffff 60%;*/
-
-/*вторичный цвет  #212121;*/
-
-/*цвета фонов  
-1 background: #FFFFFF;
-2 background: #2F303A;
-3 background: #E5E5E5; 
+/*цвета фонов 
+1 background: #E5E5E5;  
+2 основнойbackground: #FFFFFF;
+3 background: #2F303A;
 4 background: #F5F4FA;
 5 background: #2F303A;
 */
 /*обнуления для списков*/
-.list  {
-  list-style-type: none; 
+.list {
+  list-style-type: none;
 }
 
 /*header*/
 .logo {
   text-decoration-line: none;
-  color:#212121;
+  color: var(--title-color-text--);
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -31,7 +31,7 @@
 
 .site-nav .link {
   text-decoration-line: none;
-  color: #212121;
+  color: var(--title-color-text--);
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -41,7 +41,7 @@
 
 .auth-nav .link-auth {
   text-decoration: none;
-  color: #757575;
+  color: var(--primery-text-color--);
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -54,6 +54,77 @@
 .site-nav .link:focus,
 .auth-nav .link-auth:hover,
 .auth-nav .link-auth:focus {
-  color:#2196f3;
+  color: var(--accent-color--);
+}
 
-  /* main*/
+/*hero*/
+
+.hero-title {
+  color: var(--wite-color--);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+/*feature*/
+
+.feature-list .title {
+  color: var(--title-color-text--);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.feature-list p {
+  color: var(--primery-text-color--);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/*section*/
+.section .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+
+}
+/*team*/
+.team-list .title {
+  color: var(--title-color-text--);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
+.team-list p {
+  color: var(--primery-text-color--);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  /*footer*/
+
+.info {
+  color: var(--wite-color--)
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
