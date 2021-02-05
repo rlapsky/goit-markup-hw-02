@@ -5,7 +5,6 @@
   --wite-color--: #ffffff;
   --wite-color-accent--: #ffffff 60%;
   --prymeri-bgc--: #2f303a;
-  --accent-bgc--: #e5e5e5;
   --white-bgc--: #f5f4fa;
 }
 
@@ -39,7 +38,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.site-nav .site-portfolio-nav {
+.site-nav .current {
   color: var(--accent-color--);
 }
 
@@ -79,7 +78,7 @@ section.hero {
 
 /*feature*/
 
-.feature .feature-list .title {
+.feature.title {
   color: var(--title-color-text--);
   font-family: Roboto;
   font-style: normal;
@@ -89,7 +88,7 @@ section.hero {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.feature-list.text {
+.feature-list .text {
   color: var(--primery-text-color--);
   font-family: Roboto;
   font-style: normal;
@@ -184,9 +183,10 @@ footer {
 
 /*кнопки портфолио навигация*/
 .portfolio_main {
-  background-color: var(--white-bgc--);
+  background-color: var(--accent-bgc--);
 }
 .portfolio-buton {
+  border-radius: 4px;
   background-color: var(--white-bgc--);
   color: #212121;
   font-family: Roboto;
@@ -197,9 +197,14 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   text-decoration-line: none;
-  background: var(---white-bgc--);
   border-radius: 4px;
 }
+.portfolio-buton:hover,
+.portfolio-buton:focus {
+  color: var(--wite-color--);
+  background-color: var(--accent-color--);
+}
+
 /*Список Робот*/
 
 .works.work-list {
