@@ -170,10 +170,52 @@ footer {
   background-color: var(--prymeri-bgc--);
 }
 
+/*portfolio*/
+.portfolio_hdr {
+  background-color: var(--wite-color--);
+}
 .logo-white {
   color: var(--wite-color--);
 }
 
 .auth-nav .link-auth.footer {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*кнопки портфолио навигация*/
+.portfolio_main {
+  background-color: var(--white-bgc--);
+}
+.portfolio-buton {
+  background-color: var(--white-bgc--);
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-decoration-line: none;
+  background: var(---white-bgc--);
+  border-radius: 4px;
+}
+/*Список Робот*/
+
+.works.work-list {
+  color: var(--title-color-text--);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+.work-class {
+  color: var(--primery-text-color--);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
