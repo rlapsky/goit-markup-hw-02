@@ -4,16 +4,11 @@
   --accent-color--: #2196f3;
   --wite-color--: #ffffff;
   --wite-color-accent--: #ffffff 60%;
-  --bgcfooter--: #2f303a;
+  --prymeri-bgc--: #2f303a;
+  --accent-bgc--: #e5e5e5;
+  --white-bgc--: #f5f4fa;
 }
 
-/*цвета фонов 
-1 background: #E5E5E5;  
-2 основной background: #FFFFFF;
-3 background: #2F303A;
-4 background: #F5F4FA;
-5 background: #2F303A;
-*/
 /*обнуления для списков*/
 .list {
   list-style-type: none;
@@ -44,6 +39,9 @@
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.site-nav .site-portfolio-nav {
+  color: var(--accent-color--);
+}
 
 .auth-nav .link-auth {
   text-decoration: none;
@@ -63,6 +61,9 @@
 }
 
 /*hero*/
+section.hero {
+  background-color: var(--prymeri-bgc--);
+}
 
 .hero-title {
   color: var(--wite-color--);
@@ -78,7 +79,7 @@
 
 /*feature*/
 
-.section .feature-list .title {
+.feature .feature-list .title {
   color: var(--title-color-text--);
   font-family: Roboto;
   font-style: normal;
@@ -88,7 +89,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.feature-list p {
+.feature-list.text {
   color: var(--primery-text-color--);
   font-family: Roboto;
   font-style: normal;
@@ -122,6 +123,9 @@
   letter-spacing: 0.03em;
 }
 /*team*/
+section.team-list {
+  background-color: var(--accent-bgc--);
+}
 .team-list .title {
   color: var(--title-color-text--);
   font-family: Roboto;
@@ -163,7 +167,7 @@ address {
 }
 
 footer {
-  background-color: var(--bgcfooter--);
+  background-color: var(--prymeri-bgc--);
 }
 
 .logo-white {
